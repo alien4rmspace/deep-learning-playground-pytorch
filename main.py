@@ -36,3 +36,27 @@ for epoch in range(500):
         print(f"Epoch {epoch + 1}: Loss = {loss.item()}")
 
 helper_utils.plot_results(model, distances, times)
+
+distance_to_predict =7.0
+
+# torch.no_grad() for more efficient predictions
+with torch.no_grad():
+    new_distance = torch.tensor([[distance_to_predict]], dtype=torch.float32)
+
+    predicted_time = model(new_distance)
+
+    print(f"Prediction for a {distance_to_predict}- mile delivery: {predicted_time.item():.1f} minutes")
+
+    if predicted_time > 30:
+        print("\nMore than 30 minutes")
+    else:
+        print("\nLess than 30 minutes")
+
+# View our model's parameters it found  was best
+layer = model[0]
+
+weights = layer.weight.data.numpy()
+bias = layer.bias.data.numpy()
+
+print(f"Weight: {weights}")
+print(f"Bias: {bias}")
