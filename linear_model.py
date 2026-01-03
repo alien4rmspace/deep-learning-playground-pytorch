@@ -20,7 +20,7 @@ loss_function = nn.MSELoss()
 optimizer = optim.SGD(model.parameters(), lr=0.01)
 
 # Train the model
-for epoch in range(500):
+for epoch in range(50000):
     # Reset the optimizer's gradients'
     optimizer.zero_grad()
     # Make predictions
