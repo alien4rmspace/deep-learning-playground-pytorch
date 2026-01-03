@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03bb5171-dbfe-42c4-8eda-3405f1d673a7" name="Changes" comment="Added dataset for a non linear learning model.">
+    <list default="true" id="03bb5171-dbfe-42c4-8eda-3405f1d673a7" name="Changes" comment="Normalized data sets.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/non_linear_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/non_linear_model.py" afterDir="false" />
     </list>
@@ -95,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1766476599497</updated>
       <workItem from="1766625209092" duration="7142000" />
-      <workItem from="1767418674079" duration="1351000" />
+      <workItem from="1767418674079" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="First push of the neural-network project.">
       <option name="closed" value="true" />
@@ -145,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767419484020</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Normalized data sets.">
+      <option name="closed" value="true" />
+      <created>1767420166304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767420166304</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,11 +164,12 @@
     <MESSAGE value="Model is trained and results are plotted onto a visual chart." />
     <MESSAGE value="Prediction results and inspection of our models trained parameters." />
     <MESSAGE value="Added dataset for a non linear learning model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dataset for a non linear learning model." />
+    <MESSAGE value="Normalized data sets." />
+    <option name="LAST_COMMIT_MESSAGE" value="Normalized data sets." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyTorch_Projects$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1766626561560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/PyTorch_Projects$non_linear_model.coverage" NAME="non_linear_model Coverage Results" MODIFIED="1767419944548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyTorch_Projects$non_linear_model.coverage" NAME="non_linear_model Coverage Results" MODIFIED="1767420106365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyTorch_Projects$main.coverage" NAME="main Coverage Results" MODIFIED="1766629785456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
